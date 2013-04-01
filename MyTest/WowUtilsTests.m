@@ -13,7 +13,7 @@
 -(void)testCharacterClassNameLookup
 {
     // 2
-    STAssertEqualObjects(@"Warrior11",
+    STAssertEqualObjects(@"Warrior",
                          [WoWUtils classFromCharacterType:1],
                          @"ClassType should be Warrior");
     // 3
